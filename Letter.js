@@ -1,5 +1,5 @@
 function Letter(character) {
-    this.character = character;
+    this.character = character.toUpperCase();
     this.guessed = false;
     this.toString = function() {
             if (this.guessed) {
